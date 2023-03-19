@@ -1,0 +1,48 @@
+/*sylying for all elements*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+/*stlying for the body*/
+body{
+    background-image: url(https://media.istockphoto.com/id/908561006/photo/speedometer-speed-limit-at-80-km-per-hour.jpg?b=1&s=170667a&w=0&k=20&c=Au4pDEmzVhHuWVbUsNSd2GAQHdKIttc1RtqBzqraW6E=);
+    background-size: cover;
+}
+/*styling for the navsection*/
+.nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 20px;
+    color: rgb(172, 57, 57);
+}
+/*stling for the box section */
+.box{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 1 vw ;
+    height: 50 vh;
+    display: block;
+    background-image: url(https://media.istockphoto.com/id/1427565601/photo/weathered-industrial-chevron-pattern-on-diamond-plate-steel-background.jpg?b=1&s=170667a&w=0&k=20&c=CpgimMZyOxzeflsqLbHeWM-Tc2-8HNwrGhyTJAj9uf0=);
+    background-size: cover;
+    color: rgb(248, 6, 6);
+    
+}
+/*styling for the button*/
+button{
+    outline: none;
+    font-size: 30 px;
+    height: 20px;
+    width: 150px;
+    background-color: yellow;
+}
+/*styling for the input*/
+input{
+    height: 25px;
+    background: rgb(245, 221, 5);
+}

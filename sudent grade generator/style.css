@@ -1,0 +1,44 @@
+/*styling for all elements*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+/*styling for the body element*/
+body{
+    background-image: url(https://images.unsplash.com/photo-1606326608690-4e0281b1e588?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cXVpenxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+/*styling for the navbar*/
+.nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 20px;
+    color: rgb(48, 45, 2);
+}
+/*styling for the box section*/
+.box{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 10 vw ;
+    height: 50 vh;
+    display: flex;
+    background-image: url(https://images.unsplash.com/photo-1607513746994-51f730a44832?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8eWVsbG93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+/*styling for the button section*/
+button{
+    outline: none;
+    font-size: 30 px;
+    height: 20px;
+    width: 150px;
+}
+/*styling for the input section*/
+input{
+    height: 25px;
+    background: peachpuff;
+}

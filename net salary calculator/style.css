@@ -1,0 +1,55 @@
+/* Add styles for the header */
+body {
+    background-image: url(https://media.istockphoto.com/id/1422554116/photo/2023-taxes-new-year-symbol-businessman-turns-a-wooden-cube-and-changes-words-taxes-2022-to.jpg?b=1&s=170667a&w=0&k=20&c=1eUI1FzKZZwKqrfjnD3xYJ_TdgepdrRaqoe4M3rTfDY=);
+    background-size: cover;
+    background-position: 10px;
+}
+
+
+h1 {
+text-align: center;
+margin-top: 50px;
+color: #b60339;
+}
+
+/* Add styles for the labels and input fields */
+label {
+display: inline-block;
+width: 200px;
+margin: 10px 0;
+font-size: 18px;
+}
+
+input[type="number"] {
+width: 300px;
+height: 30px;
+font-size: 18px;
+padding: 5px;
+border-radius: 5px;
+border: 1px solid #e2055a;
+margin: 10px 0;
+
+}
+
+/* Add styles for the calculate button */
+#calculate-button {
+display: block;
+margin: 20px auto;
+width: 200px;
+height: 50px;
+background-color: #be044c;
+color: #dfa373;
+font-size: 18px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+}
+
+/* Add styles for the result output */
+#result-output {
+text-align: center;
+margin-top: 50px;
+font-size: 24px;
+font-weight: bold;
+color: #f5174e;
+}

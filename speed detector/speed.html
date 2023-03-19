@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---linking .css file to HTML-->
+    <link rel="stylesheet" href="style.css" />
+    <title>SPEED DETECTOR</title>
+</head>
+<body>
+    <!--page header-->
+    <header class="nav">
+         <div>
+                
+            <h1>SPEED DETECTOR</h1>
+        </div>
+    </header> 
+    <!--input & button section-->
+    <div class ="box">
+        <div class="main">
+          <label>Enter your speed:</label><br><br>
+          <input type="number" name= "" id="mySpeed" placeholder="speed km/hr"><br><br>
+          <button onclick= "getResult()">Calculate</button><br><br>
+          <!--results section-->
+          <p>Your result is: <span id="points"></span></p>
+        </div>
+    </div>
+    <!--attaching javascript file to HTML file-->
+    <script src="script.js"></script> 
+</body>
+</html>
