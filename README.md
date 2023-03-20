@@ -1,4 +1,5 @@
 # week-1-code-challenge
+# published by:Clinton Mboloi Wambua/Moringa School.
 
 # Student Grade Generator, Speed Detector and Net Salary Calculator
 This repository contains three toy problems implemented using javascript,HTML and css.
