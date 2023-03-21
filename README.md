@@ -1,10 +1,10 @@
 # week-1-code-challenge
 ## published by:Clinton Mboloi Wambua/Moringa School.
 
-### Student Grade Generator, Speed Detector and Net Salary Calculator
+# Student Grade Generator, Speed Detector and Net Salary Calculator
 This repository contains three toy problems implemented using javascript,HTML and css.
 
-Challenge 1: Student Grade Generator
+# Challenge 1: Student Grade Generator
 The program prompts the user to input student marks between 0 and 100. It then outputs the correct grade according to the following scheme:
 
 A > 79
