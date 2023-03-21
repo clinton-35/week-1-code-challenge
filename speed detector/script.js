@@ -14,7 +14,7 @@ const getResult = () =>{
             if( speed <=12 ){
                 document.getElementById("points").innerHTML = (`${speed} points`);
             }else{
-                document.getElementById("points").innerHTML = ('License  suspended');
+                document.getElementById("points").innerHTML = (`Your points are ${speed},  License  suspended`);
             } 
         }
         // returning the value back to the HTMLdoc

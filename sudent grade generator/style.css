@@ -1,44 +1,71 @@
-/*styling for all elements*/
+/*importing fonts from a url*/
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+/*universal stlying*/
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-
+    text-transform: capitalize;
+    font-family: 'Bona Nova', serif;
 }
-/*styling for the body element*/
+/*body styling*/
 body{
-    background-image: url(https://images.unsplash.com/photo-1606326608690-4e0281b1e588?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cXVpenxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
-    background-size: cover;
+    display: grid;
+    place-content:center;
+    min-height: 100vh;
 }
-/*styling for the navbar*/
-.nav{
-    display: flex;
-    justify-content: center;
+/*container styling*/
+.container{
+    background-color: aliceblue;
+    width: 700px;
+    height: 400px;
+    box-shadow: 0px 10px 10px 0px #000;
+    border-radius: 10px;
+}
+/*left side of the box styling*/
+.left-box{
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    background-color: aqua;
+    border-radius: 10px 0px 0px 10px;
+}
+/*styling for the left-box heading*/
+.left-box h1{
+    margin-top: 50px;
     text-align: center;
-    width: 100%;
-    margin: 20px;
-    color: rgb(48, 45, 2);
+    font-size: 2.5rem;
+    color: antiquewhite;
+    font-weight: 900;
+    letter-spacing: 3px;
 }
-/*styling for the box section*/
-.box{
+/*stlying for the percentage,grade and total*/
+.p-g-t{
+    text-align: center;
+    display: grid;
+    place-content: center;
+    min-height: 30vh;
+}
+
+.p-g-th2{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+/*stlying for he content in the right box*/
+.content .right-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 10 vw ;
-    height: 50 vh;
-    display: flex;
-    background-image: url(https://images.unsplash.com/photo-1607513746994-51f730a44832?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8eWVsbG93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
-    background-size: cover;
+    min-width: 62vw;
+    min-height: 50vh;
 }
-/*styling for the button section*/
-button{
+
+.right-box .right-boxinput{
+    margin: 10px 0px;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
     outline: none;
-    font-size: 30 px;
-    height: 20px;
-    width: 150px;
-}
-/*styling for the input section*/
-input{
-    height: 25px;
-    background: peachpuff;
-}
+}    

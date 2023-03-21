@@ -1,7 +1,7 @@
 # week-1-code-challenge
-# published by:Clinton Mboloi Wambua/Moringa School.
+## published by:Clinton Mboloi Wambua/Moringa School.
 
-# Student Grade Generator, Speed Detector and Net Salary Calculator
+### Student Grade Generator, Speed Detector and Net Salary Calculator
 This repository contains three toy problems implemented using javascript,HTML and css.
 
 Challenge 1: Student Grade Generator
@@ -18,14 +18,14 @@ The program takes as input the speed of a car and prints the number of demerit p
 # Challenge 3: Net Salary Calculator
 The program calculates the Payee Tax, NHIF, NSSF deductions, and net salary of an employee given their basic salary and benefits.
 
-# Usage
+#### Usage
 To use any of these programs, simply run the corresponding Javascript,HTML and css files in your terminal or IDE. The program will prompt you for any necessary inputs and output the results.
 
-# Contributing
+##### Contributing
 Feel free to submit pull requests to improve the code or add new features to these programs.
 
-# License
-This project is licensed under the Moringa School License.
+###### License
+This project is licensed under the MIT License.
 
 
 

@@ -1,26 +1,33 @@
-// function for grading the marks
-const getResult = () =>{
-//    variable assignment
-  let num = document.getElementById("myMark").value;
-//   statement to avoid user fromnot writing a value
-  if(document.getElementsByTagName("input").value==""){
-    alert("Please Enter Some Value")
-  }
-
-    // if ..else statement to grade the marks(num)
-    if (num < 40){
-        document.getElementById("grade").innerHTML = ('E');
-    }else if(num >= 40 && num <= 49){
-        document.getElementById("grade").innerHTML = ('D');
-    }else if(num > 49 && num <= 59 ){
-        document.getElementById("grade").innerHTML = ('C');
-    }else if(num >= 60 && num <= 79){
-        document.getElementById("grade").innerHTML = ('B');
-    }else if(num > 79 && num <= 100){
-        document.getElementById("grade").innerHTML = ('A');  
-    }else{
-        document.getElementById("grade").innerHTML = ('invalid ');
+// function to calculate the results
+function show_result() {
+    // assigning values fromthe user input in html
+    let num = document.querySelector("#html").value;
+    let num2 = document.querySelector("#js").value;
+    let num3 = document.querySelector("#css").value;
+    // calculating total and percentege
+    let to = parseFloat(num) + parseFloat(num2) + parseFloat(num3);
+    let per = (to * 100) / 300;
+    // grading of the percentageusing if....else statement
+    if (per < 40) {
+      document.querySelector(".gra").innerHTML = "E";
+    } else if (per >= 40 && per <= 49) {
+      document.querySelector(".gra").innerHTML = "D";
+    } else if (per >= 50 && per <= 59) {
+      document.querySelector(".gra").innerHTML = "C";
+    } else if (per >= 60 && per <= 79) {
+      document.querySelector(".gra").innerHTML = "B";
+    } else if (per >= 80 && per <= 100) {
+      document.querySelector(".gra").innerHTML = "A";
+    } else {
+      document.querySelector(".gra").innerHTML = "Invalid";
     }
-    // statement for returning result of the if satement to the html
-    return document.getElementById("result")
-}
+    // assigning the  percentage annd total results to the html file
+    document.querySelector(".to").innerHTML = to;
+    document.querySelector(".per").innerHTML = per.toFixed(2);
+    
+    if (per < 40) {
+      document.querySelector(".result h2").innerHTML = "You have failed!";
+    } else {
+      document.querySelector(".result h2").innerHTML = "You have passed!";
+    }
+  }
